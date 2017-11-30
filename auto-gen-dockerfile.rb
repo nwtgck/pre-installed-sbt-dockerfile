@@ -84,6 +84,9 @@ SBT_VERSIONS = %w{
     v0.10.0
 }
 .map{|v| v[1..-1]} # NOTE: Remove 'v'
+.sort_by{|v| Gem::Version.new(v)} # Sort by natual version
+.reverse
+
 
 SBT_VERSIONS.each{|sbt_version|
     docker_str = sbt_docker_str(sbt_version)
