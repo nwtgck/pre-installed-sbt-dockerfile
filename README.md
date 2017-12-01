@@ -24,4 +24,4 @@ docker pull nwtgck/pre-installed-sbt:1.0.4
 
 This is just a remider for me.
 
-[MY_NOTE](MYNOTE.md) 
+[MY_NOTE](/MY_NOTE.md) 
