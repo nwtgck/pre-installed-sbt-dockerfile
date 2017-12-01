@@ -1,9 +1,24 @@
 # Dockerfile of pre-installed sbt
 
+[![Docker Automated build](https://img.shields.io/docker/automated/nwtgck/pre-installed-sbt.svg)](https://hub.docker.com/r/nwtgck/pre-installed-sbt/)
 
-Dockerfile of [sbt](http://www.scala-sbt.org/), which is a build tool for Scala, Java, and more.
+Dockerfile of pre-installed [sbt](http://www.scala-sbt.org/).
 
-Specific version is pre-installed for fast future build.
+## Purpose
+
+The purpose is for faster future docker-build by pre-installed sbt.
+
+## Available sbt versions
+
+`0.13.6` ~ `1.0.4`
+
+## Docker-Pull
+
+Here is an example of pull.
+
+```bash
+docker pull nwtgck/pre-installed-sbt:1.0.4
+```
 
 ## How to generate `Dockerfile`s
 
@@ -19,7 +34,7 @@ cd <this repo>
 ruby clean_dockerfiles.rb
 ```
 
-## How to build by `Dockerfile`
+## How to build by `Dockerfile` manually
 
 Here is an example.
 
