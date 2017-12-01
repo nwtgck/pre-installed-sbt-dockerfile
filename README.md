@@ -1,6 +1,6 @@
 # Dockerfile of pre-installed sbt
 
-[![Docker Automated build](https://img.shields.io/docker/automated/nwtgck/pre-installed-sbt.svg)](https://hub.docker.com/r/nwtgck/pre-installed-sbt/)
+[![Docker Automated build](https://img.shields.io/docker/automated/nwtgck/pre-installed-sbt.svg)](https://hub.docker.com/r/nwtgck/pre-installed-sbt/) [![Build Status](https://travis-ci.org/nwtgck/pre-installed-sbt-dockerfile.svg?branch=master)](https://travis-ci.org/nwtgck/pre-installed-sbt-dockerfile)
 
 Dockerfile of pre-installed [sbt](http://www.scala-sbt.org/).
 
