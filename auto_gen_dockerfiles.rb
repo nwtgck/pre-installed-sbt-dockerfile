@@ -37,5 +37,7 @@ SBT_VERSIONS.each{|sbt_version|
     docker_str = sbt_docker_str(sbt_version)
     dir_path   = sbt_version
     Dir.mkdir(dir_path) if !Dir.exists?(dir_path)
-    File.write(File.join(dir_path, "Dockerfile"), docker_str)
+    dockerfile_path = File.join(dir_path, "Dockerfile")
+    File.write(dockerfile_path, docker_str)
+    puts("'#{dockerfile_path}' generated")
 }
