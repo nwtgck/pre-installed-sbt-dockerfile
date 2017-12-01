@@ -20,27 +20,8 @@ Here is an example of pull.
 docker pull nwtgck/pre-installed-sbt:1.0.4
 ```
 
-## How to generate `Dockerfile`s
+## My note
 
-```bash
-cd <this repo>
-ruby auto_gen_dockerfiles.rb
-```
+This is just a remider for me.
 
-## How to clean up the `Dockerfile`s
-
-```bash
-cd <this repo>
-ruby clean_dockerfiles.rb
-```
-
-## How to build by `Dockerfile` manually
-
-Here is an example.
-
-```bash
-cd <this repo>
-docker build -t sbt:0.13.8 ./0.13.8/
-```
-
-But buildation is automated.
+[MY_NOTE](MYNOTE.md) 
