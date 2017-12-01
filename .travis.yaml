@@ -1,0 +1,7 @@
+language: ruby
+
+services:
+  - docker
+
+script:
+  - ruby docker_images_test.rb
