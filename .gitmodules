@@ -1,0 +1,3 @@
+[submodule "sbt"]
+	path = sbt
+	url = git@github.com:sbt/sbt.git
