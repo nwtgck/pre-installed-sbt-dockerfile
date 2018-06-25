@@ -10,7 +10,7 @@ The purpose is for faster future docker-build by pre-installed sbt.
 
 ## Available sbt versions
 
-`0.13.6` ~ `1.0.4`
+`0.13.6` ~ `1.1.6`
 
 ## Docker-Pull
 
@@ -22,6 +22,6 @@ docker pull nwtgck/pre-installed-sbt:1.0.4
 
 ## My note
 
-This is just a remider for me.
+This is just a reminder for me.
 
 [MY_NOTE](/MY_NOTE.md) 
