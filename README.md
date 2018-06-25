@@ -12,6 +12,9 @@ The purpose is for faster future docker-build by pre-installed sbt.
 
 `0.13.6` ~ `1.1.6`
 
+See all versions in  
+<https://hub.docker.com/r/nwtgck/pre-installed-sbt/tags/>
+
 ## Docker-Pull
 
 Here is an example of pull.
