@@ -1,6 +1,6 @@
 # Dockerfile of pre-installed sbt
 
-[![Docker Automated build](https://img.shields.io/docker/automated/nwtgck/pre-installed-sbt.svg)](https://hub.docker.com/r/nwtgck/pre-installed-sbt/) [![Build Status](https://travis-ci.org/nwtgck/pre-installed-sbt-dockerfile.svg?branch=master)](https://travis-ci.org/nwtgck/pre-installed-sbt-dockerfile)
+[![Docker Automated build](https://img.shields.io/docker/automated/nwtgck/pre-installed-sbt.svg)](https://hub.docker.com/r/nwtgck/pre-installed-sbt/) [![](https://images.microbadger.com/badges/image/nwtgck/pre-installed-sbt.svg)](https://microbadger.com/images/nwtgck/pre-installed-sbt "Get your own image badge on microbadger.com") [![Build Status](https://travis-ci.org/nwtgck/pre-installed-sbt-dockerfile.svg?branch=master)](https://travis-ci.org/nwtgck/pre-installed-sbt-dockerfile)
 
 Dockerfile of pre-installed [sbt](http://www.scala-sbt.org/).
 
@@ -10,7 +10,7 @@ The purpose is for faster future docker-build by pre-installed sbt.
 
 ## Available sbt versions
 
-`0.13.6` ~ `1.1.6`
+`0.13.6` ~ `1.2.1`
 
 See all versions in  
 <https://hub.docker.com/r/nwtgck/pre-installed-sbt/tags/>
