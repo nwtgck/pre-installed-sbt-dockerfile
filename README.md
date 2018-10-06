@@ -10,7 +10,7 @@ The purpose is for faster future docker-build by pre-installed sbt.
 
 ## Available sbt versions
 
-`0.13.6` ~ `1.2.3`
+`0.13.6` ~ `1.2.4`
 
 See all versions in  
 <https://hub.docker.com/r/nwtgck/pre-installed-sbt/tags/>
